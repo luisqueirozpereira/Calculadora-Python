@@ -13,9 +13,9 @@ def divide(x,y): #função paradivisão
     return result
 
 print("Calculadora simples:)")
-n1=int(input("Digite o primeiro número: "))#solicitando o primeiro valor ao user
+n1=float(input("Digite o primeiro número: "))#solicitando o primeiro valor ao user
 opera=input("Selecione a operação, digite +, -, x ou / ") #solicitando a operação ao user
-n2=int(input("Digite o segundo número: "))#solicitando o segundo valor ao usuário
+n2=float(input("Digite o segundo número: "))#solicitando o segundo valor ao usuário
 if opera=="+": #estrutura condicional para checar a operação a ser realizada.
     print(soma(n1, n2))
 elif opera =="-":
